@@ -2,8 +2,8 @@ import requests
 
 def download_coco():
     URL  = "https://docs.google.com/uc?export=download"
-	id   = "19MkP4HWQHUIrAI8mMMGkF8AYBp67VVK4"
-	dest = "coco_captioning.zip"
+    id   = "19MkP4HWQHUIrAI8mMMGkF8AYBp67VVK4"
+    dest = "coco_captioning.zip"
 
     session = requests.Session()
 
